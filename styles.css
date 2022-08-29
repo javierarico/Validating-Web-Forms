@@ -1,0 +1,40 @@
+.input-txt {
+    font-size: 1.5rem;
+    margin: 2vh 0 1vh 0;
+}
+
+input {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+}
+
+.input-warning:focus{
+    outline-color: rgb(255, 0, 0);
+}
+
+.input-warning {
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.input-good:focus {
+    outline-color: rgb(0, 128, 0);
+}
+
+.input-good {
+    border: 2px solid rgb(0, 128, 0);
+}
+
+.input-warning-txt {
+    color: orange;
+    text-align: center;
+    font-size: 1rem;
+    width: 20rem;
+    display: none;
+    margin-bottom: 0px;
+}
+
+input,
+input::placeholder {
+    font-size: 1.2rem;
+}
